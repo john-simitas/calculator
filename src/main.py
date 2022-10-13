@@ -21,15 +21,15 @@ def main():
     n_1 = int(input('Add a number: '))
     n_2 = int(input('Add anothet one number: '))
 
-    if choosing == '1':
+    if choosing == '+':
         addition(n_1, n_2)
-    elif choosing == '2':
+    elif choosing == '-':
         subtraction(n_1, n_2)
-    elif choosing == '3':
+    elif choosing == '*':
         multiplication(n_1, n_2)
-    elif choosing == '4':
+    elif choosing == '/':
         divition(n_1, n_2)
-    elif choosing == '5':
+    elif choosing == 'sqrt':
         square(n_1, n_2)
 
 main()
